@@ -1,0 +1,15 @@
+{% load static %}
+<html>
+    <head>
+        <title>PDF Site</title>
+        <link rel="stylesheet" href="{% static 'pdfSite/style.css' %}">
+    </head>
+    <body>
+        <header>
+            <h2>PDF Site</h2>
+        </header>
+
+        {% block content %}
+        {% endblock %}
+    </body>
+</html>

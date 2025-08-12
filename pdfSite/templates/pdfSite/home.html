@@ -1,0 +1,11 @@
+{% extends 'pdfSite/base.html' %}
+
+{% block content %}
+<h1>Conversor TXT → PDF</h1>
+<form action="{% url 'converter' %}" method="post" enctype="multipart/form-data">
+    {% csrf_token %}
+    <label for="arquivo">Selecione um arquivo .txt:</label>
+    <input type="file" name="arquivo" id="arquivo" accept=".txt" required>
+    <button type="submit">Converter</button>
+</form>
+{% endblock %}
