@@ -8,10 +8,11 @@ body {
 
 h1 {
     text-align: center;
-    color: #007bff;
+    color: #003063;
     margin: 20px;
 }
-h2{
+h2{ 
+    color: #00448d;
     text-align: center;
 }
 
@@ -19,13 +20,25 @@ p {
     font-size: 18px;
     margin: 20px;
 }
+figure {
+    text-align: center;
+}
+img {
+    text-align: center;
+    align-items: center;
+    margin: 20px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #003063;
+    border-radius: 5px;
+}
 
 form{
     text-align: center;
 }
 
 header {
-    background-color: #007bff;
+    background-color: #3e9bff;
     color: white;
     padding: 10px 20px;
 }
